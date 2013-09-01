@@ -58,6 +58,7 @@
 
     <sdef n="cm"      c="Comma"/>
     <sdef n="guio"    c="Hyphen"/>
+    <sdef n="sent"    c="Sentence marker"/>
   </sdefs>
 
   <pardefs>
@@ -69,6 +70,10 @@
 
     <pardef n="guionet">
       <e><p><l>-</l><r>-<s n="guio"/></r></p></e>
+    </pardef>
+
+    <pardef n="separa">
+      <e><re>[.!:\?]</re><p><l></l><r><s n="sent"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Miscellaneous -->
@@ -996,6 +1001,7 @@
   <section id="final" type="inconditional">
     <e><par n="coma"/></e>
     <e><par n="guionet"/></e>
+    <e><par n="separa"/></e>
   </section>
 
 </dictionary>

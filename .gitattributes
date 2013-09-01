@@ -1,3 +1,8 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/NEWS -text
+/README -text
 /apertium-gla.gla.dix -text
 /apertium-gla.gla.rlx -text

@@ -1,3 +1,5 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<:>";
+
 SUBREADINGS = LTR ;
 
 LIST N = n ; 
