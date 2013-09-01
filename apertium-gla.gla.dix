@@ -1,5 +1,5 @@
 <dictionary>
-  <alphabet>abcdefghilmnoprstuàèìòùáéóABCDEFGHILMNOPRSTUÀÈÌÒÙÁÉÓ</alphabet>
+  <alphabet>abcdefghilmnoprstuàèìòùáéówxyzABCDEFGHILMNOPRSTUÀÈÌÒÙÁÉÓWXYZ</alphabet>
 
   <sdefs>
     <sdef n="det"     c="Determiner"/>
@@ -27,6 +27,7 @@
     <sdef n="dem"     c="Demonstrative"/>
     <sdef n="itg"     c="Interrogative"/>
     <sdef n="pos"     c="Possessive"/>
+    <sdef n="ref"     c="Reflexive"/>
 
     <sdef n="subst"   c="Verbal noun"/>
     <sdef n="pres"    c="Non-past"/>
@@ -354,6 +355,10 @@
       <e><p><l></l><r><s n="prn"/><s n="itg"/></r></p></e>
     </pardef>
 
+    <pardef n="fhèin__prn">
+      <e><p><l></l><r><s n="prn"/><s n="ref"/></r></p></e>
+    </pardef>
+
 
     <!-- SECTION: Determiners -->
 
@@ -675,6 +680,10 @@
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
+    <pardef n="càite__adv">
+      <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Verbs -->
 
     <pardef n="/is__vbser">
@@ -816,13 +825,19 @@
     <e lm="a"><i>a</i><par n="a__rel"/></e>
     <e lm="na"><i>na</i><par n="a__rel"/></e>
 
+    <e lm="far"><i>far</i><par n="a__rel"/></e>
+    <e lm="cò"><i>cò</i><par n="a__rel"/></e>
+    <e lm="airson"><i>airson</i><par n="a__rel"/></e>
+    <e lm="nuair"><i>nuair</i><par n="a__rel"/></e>
+    <e lm="mar"><i>mar</i><par n="a__rel"/></e>
+
     <!-- SECTION: Conjunctions -->
  
     <e lm="agus"><i></i><par n="/agus__cnjcoo"/></e>
     <e lm="ach"><i>ach</i><par n="ach__cnjcoo"/></e>
     <e lm="no"><i>no</i><par n="ach__cnjcoo"/></e>
 
-    <e lm="nuair"><i>nuair</i><par n="nuair__cnjsub"/></e>
+    <!--<e lm="nuair"><i>nuair</i><par n="nuair__cnjsub"/></e>-->
 
     <!-- SECTION: Prepositions -->
 
@@ -881,6 +896,9 @@
     <e lm="iad"><i>iad</i><par n="iad__prn"/></e>
 
     <e lm="dè"><i>dè</i><par n="dè__prn"/></e>
+    <e lm="cò"><i>cò</i><par n="dè__prn"/></e>
+
+    <e lm="fhèin"><i>fhèin</i><par n="fhèin__prn"/></e>
 
     <!-- SECTION: Determiners -->
 
@@ -945,6 +963,10 @@
 
     <!-- SECTION: Adverbs -->
 
+    <e lm="càite"><i>càite</i><par n="suas__adv"/></e>
+    <e lm="carson"><i>carson</i><par n="suas__adv"/></e>
+    <e lm="cuine"><i>cuine</i><par n="suas__adv"/></e>
+    <e lm="ciamar"><i>ciamar</i><par n="suas__adv"/></e>
 
     <e lm="suas"><i>suas</i><par n="suas__adv"/></e>
     <e lm="idir"><i>idir</i><par n="suas__adv"/></e>
